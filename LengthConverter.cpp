@@ -12,6 +12,7 @@ int main(){
 <<<<<<< HEAD
 				switch(i){
 <<<<<<< HEAD
+<<<<<<< HEAD
 			    case 2:
 					double meters;
 					double	centimeters;
@@ -46,6 +47,20 @@ int main(){
 					break;
 		
 >>>>>>> feature/m2k
+=======
+					case 5:
+						float result;
+						cout<<"Enter value in meters: ";
+						cin>>inp;
+						result=inp*39.37;
+						cout<<"Result: "<<result;
+						break;
+					case 6:
+						exit(0);
+					default:
+						cout<<"Invalid Choice!!!";
+						break;
+>>>>>>> feature/meter_to_inches
 				}
 		}while(true);
 	
