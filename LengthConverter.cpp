@@ -10,7 +10,18 @@ int main(){
 		cin>>i;
 		do{
 				switch(i){
-			
+					case 5:
+						float result;
+						cout<<"Enter value in meters: ";
+						cin>>inp;
+						result=inp*39.37;
+						cout<<"Result: "<<result;
+						break;
+					case 6:
+						exit(0);
+					default:
+						cout<<"Invalid Choice!!!";
+						break;
 				}
 		}while(true);
 	
