@@ -9,8 +9,16 @@ int main(){
 		cout<<"Enter choice: ";
 		cin>>i;
 		do{
-				switch(i){
-			
+			switch(i){
+				case 1:
+					double a;
+					double b;
+					cout<<"\nEnter the value to be converted to KM:\n";
+					cin>>a;
+					b = a/1000.0;
+					cout<<"The converted value is:"<<b;
+					break;
+		
 				}
 		}while(true);
 	
