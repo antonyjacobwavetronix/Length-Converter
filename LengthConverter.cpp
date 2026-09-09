@@ -13,6 +13,7 @@ int main(){
 				switch(i){
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			    case 2:
 					double meters;
 					double	centimeters;
@@ -33,6 +34,15 @@ int main(){
 					millimeters = meter * 1000;
 					cout<<"final answer after converting to millimeters = "<<millimeters;
 					break;
+=======
+					case 4:
+					   double leng;
+	                   cout<<"Enter the length(in metres): ";
+	                   cin>>leng;
+					   double foot= leng/30;
+					   cout<<"Length in foot is: "<<foot<<"\n";
+					   break;
+>>>>>>> feature/footconversion
 			
 >>>>>>> feature/Millimeters
 =======
