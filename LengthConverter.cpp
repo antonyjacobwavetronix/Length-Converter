@@ -10,6 +10,13 @@ int main(){
 		cin>>i;
 		do{
 				switch(i){
+					case 4:
+					   double leng;
+	                   cout<<"Enter the length(in metres): ";
+	                   cin>>leng;
+					   double foot= leng/30;
+					   cout<<"Length in foot is: "<<foot<<"\n";
+					   break;
 			
 				}
 		}while(true);
