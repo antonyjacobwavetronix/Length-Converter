@@ -9,11 +9,7 @@ int main(){
 		cout<<"Enter choice: ";
 		cin>>i;
 		do{
-<<<<<<< HEAD
-				switch(i){
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+			switch(i){
 			    case 2:
 					double meters;
 					double	centimeters;
@@ -25,8 +21,8 @@ int main(){
 					
 					cout<<"Length in centimeters:"<<centimeters<<endl;
 					break;
-=======
-					case 3:
+					
+				case 3:
 					double meter;
 					cout<<"give the value to be converted: "<<endl;
 					cin>>meter;
@@ -34,19 +30,15 @@ int main(){
 					millimeters = meter * 1000;
 					cout<<"final answer after converting to millimeters = "<<millimeters;
 					break;
-=======
-					case 4:
-					   double leng;
-	                   cout<<"Enter the length(in metres): ";
-	                   cin>>leng;
-					   double foot= leng/30;
-					   cout<<"Length in foot is: "<<foot<<"\n";
-					   break;
->>>>>>> feature/footconversion
-			
->>>>>>> feature/Millimeters
-=======
-			switch(i){
+
+				case 4:
+				   double leng;
+				   cout<<"Enter the length(in metres): ";
+				   cin>>leng;
+				   double foot= leng/30;
+				   cout<<"Length in foot is: "<<foot<<"\n";
+				   break;
+		
 				case 1:
 					double a;
 					double b;
@@ -55,22 +47,19 @@ int main(){
 					b = a/1000.0;
 					cout<<"The converted value is:"<<b;
 					break;
-		
->>>>>>> feature/m2k
-=======
-					case 5:
-						float result;
-						cout<<"Enter value in meters: ";
-						cin>>inp;
-						result=inp*39.37;
-						cout<<"Result: "<<result;
-						break;
-					case 6:
-						exit(0);
-					default:
-						cout<<"Invalid Choice!!!";
-						break;
->>>>>>> feature/meter_to_inches
+	
+				case 5:
+					float result;
+					cout<<"Enter value in meters: ";
+					cin>>inp;
+					result=inp*39.37;
+					cout<<"Result: "<<result;
+					break;
+				case 6:
+					exit(0);
+				default:
+					cout<<"Invalid Choice!!!";
+					break;
 				}
 		}while(true);
 	
