@@ -9,6 +9,7 @@ int main(){
 		cout<<"Enter choice: ";
 		cin>>i;
 		do{
+<<<<<<< HEAD
 				switch(i){
 <<<<<<< HEAD
 			    case 2:
@@ -33,6 +34,18 @@ int main(){
 					break;
 			
 >>>>>>> feature/Millimeters
+=======
+			switch(i){
+				case 1:
+					double a;
+					double b;
+					cout<<"\nEnter the value to be converted to KM:\n";
+					cin>>a;
+					b = a/1000.0;
+					cout<<"The converted value is:"<<b;
+					break;
+		
+>>>>>>> feature/m2k
 				}
 		}while(true);
 	
