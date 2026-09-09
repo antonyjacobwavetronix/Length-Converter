@@ -10,6 +10,7 @@ int main(){
 		cin>>i;
 		do{
 				switch(i){
+<<<<<<< HEAD
 			    case 2:
 					double meters;
 					double	centimeters;
@@ -21,6 +22,17 @@ int main(){
 					
 					cout<<"Length in centimeters:"<<centimeters<<endl;
 					break;
+=======
+					case 3:
+					double meter;
+					cout<<"give the value to be converted: "<<endl;
+					cin>>meter;
+					double millimeters;
+					millimeters = meter * 1000;
+					cout<<"final answer after converting to millimeters = "<<millimeters;
+					break;
+			
+>>>>>>> feature/Millimeters
 				}
 		}while(true);
 	
