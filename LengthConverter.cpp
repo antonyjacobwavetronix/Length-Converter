@@ -10,7 +10,17 @@ int main(){
 		cin>>i;
 		do{
 				switch(i){
-			
+			    case 2:
+					double meters;
+					double	centimeters;
+					
+					cout<<"Enter length in meters";
+					cin>>meters;
+					
+					centimeters=meters*100;
+					
+					cout<<"Length in centimeters:"<<centimeters<<endl;
+					break;
 				}
 		}while(true);
 	
